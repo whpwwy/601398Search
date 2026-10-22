@@ -2,7 +2,7 @@
   "schema_version": 1,
   "symbol": "601398.SH",
   "symbol_name": "工商银行",
-  "updated_at": "2026-10-22T20:13:00+08:00",
+  "updated_at": "2026-10-23T01:10:00+08:00",
   "account": {
     "initial_capital": 100000.0,
     "cash": 91544.92,
@@ -11,8 +11,8 @@
     "last_close": 8.59,
     "position_market_value": 8590.0,
     "total_assets": 100134.92,
-    "daily_pnl": 140.0,
-    "daily_return_pct": 0.14,
+    "daily_pnl": 0.0,
+    "daily_return_pct": 0.0,
     "cumulative_return_pct": 0.135,
     "position_ratio_pct": 8.58,
     "style": "risk_averse",
@@ -24,31 +24,34 @@
       "no_chasing_limit_up": true
     }
   },
-  "last_report": "icbc_report_2026-10-22.md",
+  "last_report": "icbc_report_2026-10-23.md",
   "last_data_date": "2026-10-22",
   "last_decision": {
     "verdict": "中性偏多",
     "next_trading_day": "2026-10-23",
-    "direction": "高位震荡、涨幅收敛",
-    "range_low": 8.46,
-    "range_high": 8.74,
-    "center": 8.6,
-    "prob_up_pct": 45,
-    "prob_flat_pct": 20,
+    "direction": "高位震荡、涨幅收敛，冲高回落风险略大于突破风险",
+    "range_low": 8.44,
+    "range_high": 8.72,
+    "center": 8.58,
+    "prob_up_pct": 40,
+    "prob_flat_pct": 25,
     "prob_down_pct": 35,
-    "support_1": 8.52,
+    "support_1": 8.53,
     "support_2": 8.48,
     "support_3": 8.34,
     "resistance_1": 8.65,
-    "resistance_2": 8.74
+    "resistance_2": 8.72
   },
   "pending_actions": [
-    "收盘跌破 8.48 减仓 500 股",
-    "收盘跌破 8.34 清仓",
-    "触及 8.90 止盈全部",
-    "冲高 8.68-8.75 后回落至 8.62 以下减 500 股",
-    "回踩 8.48-8.52 且缩量可加仓 300 股至 1300 股",
-    "放量站上 8.65 不追高"
+    "优先级0：盘中触及8.20立即市价清仓，优先于一切收盘确认",
+    "触及8.90止盈全部（跨日有效）",
+    "收盘跌破8.34次日开盘清仓，覆盖8.48减仓不叠加，单日最多一次减仓",
+    "收盘跌破8.48次日开盘减500股",
+    "冲高8.68-8.72后回落至8.62以下减500股；8.68以上挂8.63-8.66限价，未成交且破8.62则市价",
+    "回踩8.50-8.53且全天成交额≤30亿元且收盘≥8.48，14:50后考虑加300股至1300股；三季报前原则上不加",
+    "放量成交额≥40亿元且收盘>8.65仅持有不追高",
+    "无信号（8.53-8.64窄幅整理）默认HOLD",
+    "仓位上限1700股（约14.58%），加仓空间700股；不加杠杆、不追涨停"
   ],
-  "trading_days_count": 1
+  "trading_days_count": 2
 }
