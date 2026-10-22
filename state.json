@@ -2,24 +2,24 @@
   "schema_version": 1,
   "symbol": "601398.SH",
   "symbol_name": "工商银行",
-  "updated_at": "2026-10-22T20:40:00+08:00",
+  "updated_at": "2026-10-22T20:13:00+08:00",
   "account": {
-    "initial_capital": 100000.00,
+    "initial_capital": 100000.0,
     "cash": 91544.92,
     "position_shares": 1000,
     "cost_price_per_share": 8.4551,
     "last_close": 8.59,
-    "position_market_value": 8590.00,
+    "position_market_value": 8590.0,
     "total_assets": 100134.92,
-    "daily_pnl": 140.00,
+    "daily_pnl": 140.0,
     "daily_return_pct": 0.14,
     "cumulative_return_pct": 0.135,
     "position_ratio_pct": 8.58,
     "style": "risk_averse",
     "risk_rules": {
       "max_single_position_pct": 15,
-      "stop_loss_price": 8.20,
-      "take_profit_price": 8.90,
+      "stop_loss_price": 8.2,
+      "take_profit_price": 8.9,
       "no_leverage": true,
       "no_chasing_limit_up": true
     }
@@ -32,7 +32,7 @@
     "direction": "高位震荡、涨幅收敛",
     "range_low": 8.46,
     "range_high": 8.74,
-    "center": 8.60,
+    "center": 8.6,
     "prob_up_pct": 45,
     "prob_flat_pct": 20,
     "prob_down_pct": 35,
@@ -50,5 +50,5 @@
     "回踩 8.48-8.52 且缩量可加仓 300 股至 1300 股",
     "放量站上 8.65 不追高"
   ],
-  "trading_days_count": 2
+  "trading_days_count": 1
 }
