@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "symbol": "601398.SH",
+  "symbol_name": "工商银行",
+  "updated_at": "2026-10-22T00:30:00+08:00",
+  "account": {
+    "initial_capital": 100000.00,
+    "cash": 91544.92,
+    "position_shares": 1000,
+    "cost_price_per_share": 8.4551,
+    "last_close": 8.45,
+    "position_market_value": 8450.00,
+    "total_assets": 99994.92,
+    "daily_pnl": -5.08,
+    "daily_return_pct": -0.005,
+    "cumulative_return_pct": -0.005,
+    "position_ratio_pct": 8.45,
+    "style": "risk_averse",
+    "risk_rules": {
+      "max_single_position_pct": 15,
+      "stop_loss_price": 8.20,
+      "take_profit_price": 8.90,
+      "no_leverage": true,
+      "no_chasing_limit_up": true
+    }
+  },
+  "last_report": "icbc_report_2026-10-22.md",
+  "last_data_date": "2026-10-21",
+  "last_decision": {
+    "verdict": "中性偏多",
+    "next_trading_day": "2026-10-22",
+    "direction": "震荡偏强",
+    "range_low": 8.38,
+    "range_high": 8.53,
+    "center": 8.46,
+    "prob_up_pct": 50,
+    "prob_flat_pct": 20,
+    "prob_down_pct": 30,
+    "support_1": 8.43,
+    "support_2": 8.33,
+    "resistance_1": 8.48,
+    "resistance_2": 8.58
+  },
+  "pending_actions": [
+    "跌破 8.20 止损清仓",
+    "回踩 8.33-8.38 且不破 8.25 加仓至 1500 股",
+    "站上 8.58 放量则持有不动",
+    "涨至 8.90 止盈卖出 1000 股"
+  ],
+  "trading_days_count": 1
+}

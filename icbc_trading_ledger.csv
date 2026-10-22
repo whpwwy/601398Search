@@ -1,0 +1,2 @@
+date,code,name,action,price,shares,amount,fees,position_shares,cash,total_assets,daily_pnl,cum_return_pct,note
+2026-10-22,601398,工商银行,BUY,8.45,1000,8450.00,5.08,1000,91544.92,99994.92,-5.08,-0.005,试探性建仓;仓位8.45%;止损8.20;止盈8.90
